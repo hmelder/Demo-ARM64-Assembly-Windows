@@ -3,6 +3,7 @@
 
 
 int main() {
+    puts("Before try block");
     __try {
         RaiseException(EXCEPTION_INT_DIVIDE_BY_ZERO, 0, 0, NULL);
     }
